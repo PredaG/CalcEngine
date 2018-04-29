@@ -39,10 +39,6 @@ public MathEquation(){}
             case 'd':
                 result = getRightVal() != 0.0d ? getLeftVal() / getRightVal() : 0.0d;
                 break;
-//                if(val2 != 0.0d)
-//                result = val1 / val2;
-//            else
-//                result = 0.0d;
             case 'm':
                 result = getLeftVal() * getRightVal();
                 break;
